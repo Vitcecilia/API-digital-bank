@@ -40,11 +40,45 @@ Para rodar os testes, rode o seguinte comando
   npm run start
 ```
 
+## ↺ Rotas
+
+### Consultas e criação de contas bancárias
+
+```
+POST  /contas - Criação de uma conta bancária;
+```
+```
+GET  /contas -  Listagem de conta bancária com verificação de senha;
+```
+```
+PUT  /contas/:numeroId - Atualiza os dados da conta bancária;
+```
+```
+DELETE  /contas/:numeroId - Excluir conta bancária;
+```
+```
+GET  /contas/saldo - retorna o saldo disponível na conta bancaria;
+```
+```
+GET  /contas/extrato - Lista todas as transações realizada da conta bancária;
+```
+### Transações de contas bancárias 
+
+```
+POST  /transações/depositar - Deposito de "dinheiro" em conta bancária;
+```
+```
+POST  /transações/sacar - Realiza  saque de "dinheiro" de uma conta bancária;
+```
+```
+POST  /transações/transferir - Realiza  transferência de "dinheiro" de uma conta bancária;
+```
+
 ## ⚙️ Executando os testes da API
 
 ![vscode](./img/img_Vscode.gif)
 
-<img img="![Alt text](img/img_Insominia.gif)">
+![vscode](./img/img_Insominia.gif)
 
 
 ## 🛠️ Construído com ferramentas 
