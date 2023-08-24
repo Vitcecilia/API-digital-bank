@@ -28,8 +28,7 @@ segue alguns  instruções  que serão necessarias para permitir que você obten
 instalar dependências
 
 ```bash
-  npm install express 
-  nodemon 
+  npm install
 ```
 
 ## ⌨️ Rodando os testes
